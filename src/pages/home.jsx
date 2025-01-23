@@ -13,7 +13,7 @@ export default function Route() {
   return (
     <>
       <Carousel />
-      <section id="streaming" className="flex justify-center">
+      <section id="streaming" className="flex justify-center w-full">
         <LogoScroll />
       </section>
       <section id="releases" className="text-center flex flex-col items-center">
