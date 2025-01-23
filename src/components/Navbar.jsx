@@ -5,8 +5,8 @@ import { Link } from "react-router-dom";
 
 export function Navbar() {
   return (
-    <div className="relative navbar fixed top-0 p-0">
-      <div className="navbar-start lg:hidden">
+    <div className="relative navbar fixed top-0 p-0 flex justify-between ">
+      <div className="navbar-start lg:hidden w-auto">
         <div className="dropdown">
           <div tabIndex={0} role="button" className="btn btn-ghost">
             <svg
@@ -36,7 +36,12 @@ export function Navbar() {
           </ul>
         </div>
       </div>
-      <a className="absolute inset-0 btn btn-ghost lg:hidden"><img className="h-14" src={polyphiaLogo} alt="" /></a>
+      <div className="navbar-center lg:hidden w-auto">
+        <a className="btn btn-ghost lg:hidden btn-polyphia-hidden"><img className="h-14" src={polyphiaLogo} alt="" /></a>
+      </div>
+      <div className="navbar-end lg:hidden w-auto">
+        <div style={{ width: "54px", height: "40px" }}></div>
+      </div>
       <div className="navbar-end hidden lg:flex">
         <ul className="menu menu-horizontal px-1 inset-y-0 right-0">
           <Link to="/"><li className="p-2">HOME</li></Link>

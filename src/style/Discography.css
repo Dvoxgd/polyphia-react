@@ -1,0 +1,10 @@
+#discography-table {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #272727;
+}
+
+thead{
+  background-color: #171717;
+}
