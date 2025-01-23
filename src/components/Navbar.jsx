@@ -25,8 +25,8 @@ export function Navbar() {
           <ul
             tabIndex={0}
             className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
-            <li><a className="p-2">HOME</a></li>
-            <li><a className="p-2">DISCOGRAPHY</a></li>
+            <Link to="/"><li className="p-2">HOME</li></Link>
+            <Link to="/discography"><li className="p-2">DISCOGRAPHY</li></Link>
             <li><a className="p-2">TOUR</a></li>
             <li><a className="p-2">ALFA</a></li>
             <li><a className="p-2">BRAVO</a></li>
