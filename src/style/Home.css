@@ -1,0 +1,69 @@
+#releases figure {
+  position: relative;
+  display: inline-block;
+}
+
+.caption {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  color: white;
+  font-size: 20px;
+  top: 0;
+  opacity: 0;
+  letter-spacing: 1px;
+  transition: opacity 0.3s ease;
+}
+
+.image-container:hover .caption {
+  opacity: 1;
+  /* Se hace visible en hover */
+}
+
+#streaming {
+  background-color: #171717;
+}
+
+#releases {
+  background-color: #171717;
+  color: white;
+}
+
+#svg-bottom {
+  width: 100%;
+  height: 70px;
+  position: relative;
+  transform: rotate(180deg);
+  bottom: -42px;
+}
+
+#quote1 {
+  height: 530px;
+  background-image: url(../assets/img/quote1.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+#quote-1 {
+  height: 100%;
+}
+
+#spotify {
+  background-color: #171717;
+  color: white;
+}
+
+#svg-top{
+  width: 100%;
+  height: 70px;
+  position: relative;
+  top: -42px;
+}
+
+iframe{
+  border-radius: 12px;
+}
