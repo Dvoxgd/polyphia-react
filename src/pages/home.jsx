@@ -24,23 +24,23 @@ export default function Route() {
               <h2>NEW REALEASES</h2>
               <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Atque corrupti magni corporis veritatis sit alias ducimus perferendis placeat voluptatem laborum!</p>
             </div>
-            <div className="flex flex-col flex-none md:flex-1 px-3 max-w-sm md:max-w-lg">
+            <div className="flex flex-col flex-none md:flex-1 m-3 max-w-sm md:max-w-lg">
               <figure className="flex flex-col image-container"><img className="max-w-full h-auto" src={album1} alt="" title="Remember That You Will Die" /><figcaption className="caption">Remember That You Will Die</figcaption></figure>
-              <div className="flex flex-wrap justify-center">
+              <div className="flex flex-wrap justify-center mt-6">
                 <img src={applemusicLogo} alt="" />
                 <img src={googleplayLogo} alt="" />
               </div>
             </div>
-            <div className="flex flex-col flex-none md:flex-1 px-3 max-w-sm md:max-w-lg">
+            <div className="flex flex-col flex-none md:flex-1 m-3 max-w-sm md:max-w-lg">
               <figure className="flex flex-col image-container"><img className="max-w-full h-auto" src={album2} alt="" title="New Levels New Devils" /><figcaption className="caption">New Levels New Devils</figcaption></figure>
-              <div className="flex flex-wrap justify-center">
+              <div className="flex flex-wrap justify-center mt-6">
                 <img className="max-w-full h-auto" src={applemusicLogo} alt="" />
                 <img className="max-w-full h-auto" src={googleplayLogo} alt="" />
               </div>
             </div>
-            <div className="flex flex-col flex-none md:flex-1 px-3 max-w-sm md:max-w-lg">
+            <div className="flex flex-col flex-none md:flex-1 m-3 max-w-sm md:max-w-lg">
               <figure className="flex flex-col image-container"><img className="max-w-full h-auto" src={album3} alt="" title="Renaissance" /><figcaption className="caption">Renaissance</figcaption></figure>
-              <div className="flex flex-wrap justify-center">
+              <div className="flex flex-wrap justify-center mt-6">
                 <img src={applemusicLogo} alt="" />
                 <img src={googleplayLogo} alt="" />
               </div>

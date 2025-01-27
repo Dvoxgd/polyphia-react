@@ -27,12 +27,12 @@ export function Navbar() {
             className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
             <Link to="/"><li className="p-2">HOME</li></Link>
             <Link to="/discography"><li className="p-2">DISCOGRAPHY</li></Link>
-            <li><a className="p-2">TOUR</a></li>
-            <li><a className="p-2">ALFA</a></li>
-            <li><a className="p-2">BRAVO</a></li>
-            <li><a className="p-2">CHARLIE</a></li>
-            <li><a className="p-2">PAGES</a></li>
-            <li><a className="p-2">ELEMENTS</a></li>
+            <li><a className="p-2 pagina-pendiente">TOUR</a></li>
+            <li><a className="p-2 pagina-pendiente">ALFA</a></li>
+            <li><a className="p-2 pagina-pendiente">BRAVO</a></li>
+            <li><a className="p-2 pagina-pendiente">CHARLIE</a></li>
+            <li><a className="p-2 pagina-pendiente">PAGES</a></li>
+            <li><a className="p-2 pagina-pendiente">ELEMENTS</a></li>
           </ul>
         </div>
       </div>
@@ -46,8 +46,8 @@ export function Navbar() {
         <ul className="menu menu-horizontal px-1 inset-y-0 right-0">
           <Link to="/"><li className="p-2">HOME</li></Link>
           <Link to="/discography"><li className="p-2">DISCOGRAPHY</li></Link>
-          <li className="p-2">TOUR</li>
-          <li className="p-2">ALFA</li>
+          <li className="p-2 pagina-pendiente">TOUR</li>
+          <li className="p-2 pagina-pendiente">ALFA</li>
         </ul>
       </div>
       <div className="navbar-center hidden lg:flex">
@@ -55,10 +55,10 @@ export function Navbar() {
       </div>
       <div className="navbar-start hidden lg:flex">
         <ul className="menu menu-horizontal px-1">
-          <li><a className="p-2">BRAVO</a></li>
-          <li><a className="p-2">CHARLIE</a></li>
-          <li><a className="p-2">PAGES</a></li>
-          <li><a className="p-2">ELEMENTS</a></li>
+          <li><a className="p-2 pagina-pendiente">BRAVO</a></li>
+          <li><a className="p-2 pagina-pendiente">CHARLIE</a></li>
+          <li><a className="p-2 pagina-pendiente">PAGES</a></li>
+          <li><a className="p-2 pagina-pendiente">ELEMENTS</a></li>
         </ul>
       </div>
     </div>

@@ -2,8 +2,10 @@
   background-color: #171717a9;
   position: absolute;
   z-index: 5;
+  color: white;
 }
 
-.btn-polyphia-hidden{
-  
+.pagina-pendiente{
+  text-decoration:line-through;
+  color: rgb(204, 204, 204);
 }
